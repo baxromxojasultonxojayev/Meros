@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+}
+
+.language-list .button-language{
+  margin: 5px !important;
+  color: #273142 !important;
+  border:  none;
+  background: white;
+  font-weight: 500!important;
+  font-size: 13px !important;
+}
+
+.language-list .button-language:active{
+  color: #F5921C !important;
+}
+
+.uzbek, .kiril{
+  border-left: 1px solid lightgray !important;
+  padding-left: 4px;
+}
+
+
+.top-menu-item{
+  font-size: 12px !important;
+  margin-left: 12px !important;
+  color: #273142 !important; 
+}
+
+main .title{
+  color: #32386B !important;
+  font-weight: bolder;
+  font-size: 24px !important;
+  padding-left: 10px;
+}
+
+.title .shop{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px  15px;
+  color: white;
+  background: #32386B !important;
+}
+
+main .catalog{
+  background:#32386B !important;
+  margin-left: 20px !important;
+  margin-top: 6px !important;
+  width: 150px;
+  height: 50px;
+}
+
+.catalog h5{
+  font-weight: 400 !important;
+  margin-top: 7px !important;
+}
+
+main form{
+  margin-top: 10px;
+}
+
+main form input{
+  width: 290px !important;
+  padding: 5px;
+  background: #F4F7F8;
+  outline: none;
+}
+
+main form select{
+  padding: 6px;
+  margin-left: -6px !important;
+  background: #F4F7F8;
+  outline: none;
+}
+
+.form-button{
+  background:#32386B !important;
+  color: white;
+  padding: 6px 20px;
+  margin-left: -6px !important;
+}
+
+.log {
+  margin-top: 15px;
+}
+
+.log a{
+  padding-left: 10px;
+  color: #273142;
+}
+
+.log li i{
+  margin-top: 3px !important;
+  padding-right: 5px;
+}
+.menu-category li{
+  width: 90px;
+  margin: 10px !important;
+  margin-left: -5px !important;
+}
+.menu-category p{
+  font-size: 12px;
+  width: 100px;
+
+}
+.menu-category li a{
+  display: block;
+}
+
+.ozbekcha{
+  display: none !important;
+}
+
+    /* PICTURES */
+.tech-more{
+  margin-right: 50px !important
+}
+
+    /* Meros List */
+
+.maxsus{
+  color: #273142;
+}
+.meros-list-item{
+  width: 550px !important;
+  height: 150px !important;
+  padding: 50px 60px;
+}
+
+.meros-list-item a:hover{
+  color: white;
+  transition: 1s;
+}
+.blue{
+  background-image: url("/images/blue.jpg") !important;
+  background-size: 800px 400px !important;
+  
+}
+
+.orange{
+  margin-left: 60px !important;
+  background-image: url("/images/orange.jpg") !important;
+  background-size: 500px 300px !important;
+
+}
+
+.universe{
+  margin-left: 60px !important;
+
+  background-image: url("/images/universe.png") !important;
+  background-size: 500px 300px !important;
+
+}
+
+.right-side-item p{
+  margin: 10px;
+}
+
+.right-side-item{
+  width: 300px !important;
+  border: 1px solid rgb(245, 242, 242);
+  margin-top: 12px;
+  padding-left: 5px;
+}
+.right-side-item p{
+  padding: -10px;
+}
+
+
+.right-side-item:hover{
+  transition: .5s;
+  border: 1px solid rgb(204, 203, 203);
+  border-radius: 1%;
+}

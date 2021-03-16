@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <title>Meros</title> 
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top-side row d-flex justify-content-between pt-2 border-bottom">
+          <ul class="language-list col-3 d-flex list-unstyled me-4">
+            <li class="language-item">
+              <button class="button-language russian" >Русский</button>
+            </li>
+            <li class="language-item">
+              <button class="button-language uzbek" >O'zbekCha</button>
+            </li>
+            <li class="language-item">
+              <button class="button-language kiril" >Ўзбекча</button>
+            </li>
+          </ul>
+          <!-- Russian -->
+          <ul class="top-menu ruscha col-6 list-unstyled d-flex ps-5">
+            <li class="top-menu-item ">
+              <i class="fas fa-map-marker-alt "></i><a href="#" class="text-decoration-none ps-2 text-dark">Ташкент</a> 
+            </li>
+            
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Мобильное приложение</a>
+            </li>
+            
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Скидки</a>
+            </li>
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Помощь</a>
+            </li> 
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Адреса магазинов</a>
+            </li>
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Доставка</a>
+            </li>
+            
+
+          </ul>
+
+          <!-- Uzbek -->
+          <ul class="top-menu ozbekcha col-6 list-unstyled d-flex ps-5">
+            
+
+            <li class="top-menu-item ">
+              <i class="fas fa-map-marker-alt "></i><a href="#" class="text-decoration-none ps-2 text-dark">Toshkent</a> 
+            </li>
+            
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Mobil ilovalar</a>
+            </li>
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Chegirmalar</a>
+            </li>
+
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Yordam</a>
+            </li>
+           
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Do'konimiz manzili</a>
+            </li>
+            
+            <li class="top-menu-item ">
+              <a href="#" class="text-decoration-none text-dark">Yetkazib berish</a>
+            </li>
+            
+          </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- KATALOG -->
+
+  <main>
+    <div class="container d-flex justify-content-between pt-3">
+      <div class="d-flex">
+        <img src="./images/letter M.jpg" width="55px" height="55px" alt="logo">
+        <h3 class="title">MEROS <br> <span class="shop">S H O P </span></h3>
+      </div> 
+
+      <!-- russian -->
+      <div class="catalog d-flex align-items-center rounded " >
+        <a href="#" class="d-flex align-items-center ">
+          <i class="fas fa-bars text-info pe-0 ps-4"></i>
+          <h5 class="text-light ps-2 pe-4 ruscha" >Католог</h5>
+          <h5 class="text-light ps-2 pe-4 ozbekcha">Kataloglar</h5>
+
+        </a>
+      </div>
+
+      <!-- uzbek -->
+
+      <!-- <div class="catalog ozbekcha d-flex align-items-center rounded" >
+        <a href="#" class="d-flex align-items-center ">
+          <i class="fas fa-bars text-info pe-0 ps-4"></i>
+          <h5 class="text-light ps-2 pe-4"id="ozbekcha">Kataloglar</h5>
+        </a>
+      </div> -->
+
+      <form class="ruscha">
+        <input type="text" class=" rounded-2 border ps-3 ms-3" placeholder="Поиск по товаром...">
+        <select class="rounded border">
+          <option value="">Все категории</option>
+        </select>
+        <button class="form-button border">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+      <form class="ozbekcha">
+        <input type="text" class=" rounded-2 border ps-3 ms-3" placeholder="Maxsulot bo'yicha izlash">
+        <select class="rounded border">
+          <option value="">Barcha turlar</option>
+        </select>
+        <button class="form-button border">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+
+      <ul class="log d-flex list-unstyled">
+        <li class="d-flex ">
+          <a href="#" class="d-flex">
+            <i class="far fa-user-circle"></i>
+            <p>Войти</p>
+          </a>
+        </li>
+        <li class="d-flex ">
+          <a href="#" class="d-flex">
+            <i class="far fa-star"></i>
+            <p>Избранное</p>
+          </a>
+        </li>
+        <li class="d-flex ">
+          <a href="#" class="d-flex">
+            <i class="fas fa-cart-arrow-down"></i>
+            <p>Корзина</p>
+          </a>
+        </li>
+      </ul>
+      
+    </div>
+  </main>
+
+
+  <!-- Menu Category  -->
+
+<section>
+  <div class="container">
+    <ul class="menu-category row list-unstyled">
+      <li class="col-1">
+        <p><a href="#">Книги</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Сувениры</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Для мужчин</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Для женщин</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Для детей</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Атрибутика</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Личение и здоровые</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Продукты питания</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Книги</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Идеи подарка</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Meros Мерч</a></p>
+      </li>
+      <li class="col-1">
+        <p><a href="#">Meros Dисконт</a></p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+  <!-- PICTURES -->
+
+<section>
+  <div class="container">
+    <div class="row d-flex justify-content-between">
+      <div class="col-6">
+        <img src="./images/ACT.jpg" width="795px" alt="act-image">
+      </div>
+      <div class="col-3 tech-more">
+        <img src="./images/KERUI.jpg" class="" width="330px" alt="kerui-image">
+        <img src="./images/TEACH&MORE.jpg" class="mt-2" width="330px" alt="teach&more">
+      </div>
+    </div>
+    <div class="w-75">
+      <img src="./images/breakfast.jpg" class="mt-2" width="1135px" alt="breakfast">
+    </div>
+  </div>
+</section>
+
+  <!-- MEROS list -->
+
+<section>
+  <div class="container mt-5">
+    <h3 class="maxsus">Специально для вас</h3>
+    <ul class="d-flex list-unstyled mt-4 meros-list">
+      <li class="meros-list-item blue">
+        <a href="#" class="d-flex">
+          <img src="./images/Merch.png" width="55px" height="55px" alt="">
+          <h4 class="">Meros <br> Мерч Бренд</h4>
+        </a>
+      </li>
+
+      <li class="meros-list-item orange">
+        <a href="#" class="d-flex">
+          <img src="./images/percent.png" width="55px" height="55px" alt="">
+          <h4 class="">Meros <br> Мерч Бренд</h4>
+        </a>
+      </li>
+
+      <li class="meros-list-item universe">
+        <a href="#" class="d-flex">
+          <img src="./images/prize.png" width="55px" height="55px" alt="">
+          <h4 class="">Meros <br> Мерч Бренд</h4>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</section>
+
+
+  <!-- Best Recommendation -->
+
+<section>
+  <div class="container">
+    <h3 class="maxsus ">Лучшие предложения!</h3>
+    <div class="d-flex">
+      <div class="left-side">
+        <img src="./image-2/left-side.jpg" alt="left-side">
+      </div>
+      <ul class="d-flex flex-wrap list-unstyled ms-4 right-side-list">
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/kitob.jpg" width="180px" alt="books">
+            <p class="w-25 rounded text-white ps-2 bg-warning">-54%</p>
+            <p class="text-secondary ">Книги</p>
+            <p class="text-dark"> Книги Коран</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-danger">120 000 сум</h5>
+          </a>
+            <p><del>200 000 сум</del></p>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/case.jpg" width="180px" alt="books">
+            <p class="text-secondary">Диски</p>
+            <p class="text-dark"> Золотая Сура Ясин <br>
+              Аль Коран чтение</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-dark">140 000 сум</h5>
+          </a>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/circle.jpg" width="180px" alt="books">
+            <p class="w-25 rounded text-white ps-2 bg-warning">-70%</p>
+            <p class="text-secondary">Диски</p>
+            <p class="text-dark"> Equantu surah al <br>
+              quran mp3</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-dark">120 000 сум</h5>
+          </a>
+            <p><s>200 000 сум</s></p>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/braslet.jpg" width="180px" alt="brasle">
+            <p class="text-secondary">Атрибутика</p>
+            <p class="text-dark"> Браслет Kokette если вещи <br> не подошли.</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-dark">95 000 сум</h5>
+          </a>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/passport.jpg" width="180px" alt="books">
+            <p class="text-secondary">Атрибутика</p>
+            <p class="text-dark"> Обложка для паспорта <br> Odyssey</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-dark">30 000 сум</h5>
+          </a>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/case-book.jpg" width="180px" alt="books">
+            <p class="w-25 rounded text-white ps-2 bg-warning">-5%</p>
+            <p class="text-secondary">Книги</p>
+            <p class="text-dark"> Подарочный набор <br>
+              с Кораном</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-danger">140 000 сум</h5>
+          </a>
+            <p><s>200 000 сум</s></p>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/konstovar (2).jpg" width="180px" alt="books">
+            <p class="text-secondary">Канцтовары</p>
+            <p class="text-dark"> Брелок для ключей</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5  class="text-dark">80 000 сум</h5>
+          </a>
+        </li>
+
+        <li class="w-25 right-side-item">
+          <a href="#">
+            <img src="./image-2/konstovar.jpg" width="180px" alt="books">
+            <p class="w-25 rounded text-white ps-2 bg-warning">-5%</p>
+            <p class="text-secondary">Канцтовары</p>
+            <p class="text-dark"> Брелок для ключей</p>
+            <img src="./image-2/Star.jpg" alt="stars">
+            <h5 class="text-danger">50 000 сум</h5>
+          </a>
+            <p><s>80 000 сум</s></p>
+        </li>
+      </ul>
+    </div>
+    <div class="w-75">
+      <img src="./image-2/electronic.jpg" width="1120px" alt="electronic">
+    </div>
+  </div>
+</section>
+
+  <script src="./js/main.js"></script>
+  <script src="https://kit.fontawesome.com/7af05c7ba7.js" crossorigin="anonymous"></script>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
